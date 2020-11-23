@@ -1,15 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"linha-de-comando/app"
+	"localizador/app"
 	"log"
 	"os"
 )
 
 func main() {
-
-	fmt.Println("Ponto de partida")
 
 	aplicacao := app.Gerar()
 
